@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "75219151984",
+    "firebase_url": "https://play-sense.firebaseio.com",
+    "project_id": "play-sense",
+    "storage_bucket": "play-sense.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75219151984:android:a84ae0fc5a637416",
+        "android_client_info": {
+          "package_name": "com.arsdale.playsense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75219151984-jd96m3jb8g76b53nf4dt8tnubva2lrvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlA6SuVbjMiPaB2piTgvd9oXnV65vbF10"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

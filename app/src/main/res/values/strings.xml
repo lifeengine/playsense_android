@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">플레이센스</string>
+    <string name="facebook_appID">1973363996085962</string>
+    <string name="facebook_app_id">1973363996085962</string>
+    <string name="fb_login_protocol_scheme">fb1973363996085962</string>
+
+    <string name="default_notification_channel_id" translatable="true">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <string name="app_scheme">playsense</string>
+
+    <string name="kakao_app_key">dde9695504147316fda6782f031073c5</string>
+    <string name="kakao_scheme">kakaodde9695504147316fda6782f031073c5</string>
+    <string name="kakaolink_host">kakaolink</string>
+    <string name="kakaostory_host">kakaostory</string>
+
+</resources>

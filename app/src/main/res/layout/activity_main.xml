@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1d1d27"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <com.kakao.usermgmt.LoginButton
+        android:id="@+id/kakao_login_btn"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:visibility="gone" />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="#1d1d27"
+        android:paddingTop="10dp"
+        android:visibility="visible"
+        app:layout_constraintTop_toBottomOf="@+id/progress_bar"
+        tools:layout_editor_absoluteX="0dp"></WebView>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/playsense_background"
+        android:layoutDirection="ltr"
+        android:max="100"
+        android:progress="1"
+        android:theme="@style/ProgressStyle"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <LinearLayout
+        android:id="@+id/logo_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1d1d27"
+        android:gravity="center"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="175dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:layout_marginBottom="150px"
+            android:layout_marginLeft="29px"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
